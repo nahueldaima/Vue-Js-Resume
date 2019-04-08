@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This project on its first version gets its data from a Real Time Database on Firebase [(https://firebase.google.com/products/realtime-database/)]. 
+This project on its first version gets its data from a [Real Time Database on Firebase](https://firebase.google.com/products/realtime-database/). 
 If you wish to setup your own data, you will have to:
  - Create a real time database with your account.
  - Set the read/write permits as:
@@ -160,7 +160,7 @@ npm run serve
 
 To host this application you will need some server or service that serve your files. 
 In my personal Resume, Im ussing Innmotion Hosting, with a custom domain. But feel free to use whatever you want. 
-For easy and quick launch you might want to use S3 Amazon Buckets [(https://aws.amazon.com/s3/)] and configure it like: [(https://docs.aws.amazon.com/AmazonS3/latest/user-guide/static-website-hosting.html)].
+For easy and quick launch you might want to use [S3 Amazon Buckets](https://aws.amazon.com/s3/) and configure it like in this [docs](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/static-website-hosting.html).
 
 In order to build your production app run:
 ```
