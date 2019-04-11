@@ -143,7 +143,6 @@ export default {
       return this.$store.getters.GET_CV_SOCIAL
     },
     owner () {
-      if (Object.keys(this.$store.getters.GET_CV_OWNER_PROFILE).length === 0) return {}
       return this.$store.getters.GET_CV_OWNER_PROFILE
     }
   },

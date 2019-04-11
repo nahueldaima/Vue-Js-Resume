@@ -4,12 +4,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store/store'
 import '@fortawesome/fontawesome-free/css/all.css'
+import { uppercase } from './filters/uppercase'
 
-Vue.filter('uppercase', function (value) {
-  if (!value) return ''
-  value = value.toString()
-  return value.toUpperCase()
-})
+Vue.filter('uppercase', uppercase)
 
 Vue.config.productionTip = false
 

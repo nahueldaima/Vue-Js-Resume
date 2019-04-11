@@ -55,17 +55,14 @@ export default {
   props: {
     phone: {
       type: String,
-      required: true,
       default: '+10110321332'
     },
     email: {
       type: String,
-      required: true,
       default: 'test@test.com'
     },
     address: {
       type: String,
-      required: true,
       default: 'Sunnyroad St 209, Michigan, USA'
     }
   }

@@ -34,12 +34,6 @@ export default new Vuex.Store({
     ],
     availableLanguages: ['English', 'Spanish', 'Italian', 'French', 'Portuguese', 'German', 'Chinesse', 'Other']
   },
-  mutations: {
-
-  },
-  actions: {
-
-  },
   getters: {
     GET_AVAILABLE_SOCIAL_MEDIA (state) {
       return state.availableSocialMedia

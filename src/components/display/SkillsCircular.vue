@@ -39,7 +39,6 @@ export default {
   props: {
     skills: {
       type: Array,
-      required: true,
       default: () => { return [] }
     }
   },
