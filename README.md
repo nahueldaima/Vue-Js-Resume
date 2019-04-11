@@ -169,6 +169,15 @@ npm run build
 You will find a new 'dist' folder on your project folder. Inside of it you will find your app prepared to be upload as a website.
 Upload the content to your hosting.
 
+## Testing
+
+This proyect has Unit testing implemented with Jest
+
+In order to run the test do:
+```
+npm run test
+```
+
 ## Built With
 
 * [Vue CLI](https://cli.vuejs.org/) - The web framework used
@@ -181,10 +190,7 @@ Vue CLI Pluggins:
 * [Vuetify](https://www.npmjs.com/package/vue-cli-plugin-vuetify) - Material Design Component Framework
 * [Babel](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel) - Material Design Component Framework
 * [eslint](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint) - Material Design Component Framework
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [unit-jest](https://www.npmjs.com/package/@vue/cli-plugin-unit-jest) - Unit Test with Jest
 
 ## Versioning
 

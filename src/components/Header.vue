@@ -18,7 +18,7 @@
       >
         <span
           v-if="item.url !=''"
-          class="header-icons"
+          class="header-icons social"
         >
           <i :class="item.icon" />
         </span>
@@ -29,7 +29,7 @@
         target="_blank"
         :href="cvUrl"
       >
-        <span class="header-icons">
+        <span class="header-icons pdf">
           <i class="far fa-file-pdf" />
         </span>
       </v-btn>
@@ -43,12 +43,10 @@ export default {
   props: {
     title: {
       type: String,
-      required: true,
       default: 'My Cool Job Title'
     },
     fullName: {
       type: String,
-      required: true,
       default: 'John Doe'
     },
     cvUrl: {

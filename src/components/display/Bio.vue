@@ -41,12 +41,10 @@ export default {
   props: {
     bio: {
       type: String,
-      required: true,
       default: 'Example of Bio'
     },
     imageUrl: {
       type: String,
-      required: true,
       default: 'https://vuejs.org/images/logo.png'
     }
   },

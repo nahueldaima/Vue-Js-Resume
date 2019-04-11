@@ -19,6 +19,7 @@
             v-model="item.value"
             color="yellow"
             readonly
+            half-increments
           />
         </v-flex>
       </v-flex>
@@ -32,8 +33,7 @@ export default {
   props: {
     skills: {
       type: Array,
-      default () { return [] },
-      required: true
+      default () { return [] }
     }
   }
 }
