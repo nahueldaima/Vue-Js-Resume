@@ -38,6 +38,8 @@
     "vuetify-loader": "^1.4.3"
   },
   "resolutions": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "acorn": "^7.0.0",
+    "kind-of": "^6.0.3"
   }
 }
