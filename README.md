@@ -1,4 +1,4 @@
-# Project Title
+# VueJs Resume
 
 Build your own Resume on VueJS - Version 1.0.0
 
